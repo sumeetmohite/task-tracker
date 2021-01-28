@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState} from 'react';
 
 const AddTask = ({onAdd}) => {
     const[text, setText] = useState('');
@@ -22,7 +22,13 @@ const AddTask = ({onAdd}) => {
         <form className='add-form' onSubmit={onSubmit}>
             <div className='form-control'>
                 <label>Task</label>
-                <input type='text' 
+                <input style={{ fontFamily: 'Kreon',
+                    backgroundColor:'#292f38',
+                    color:'white',
+                    border: '2px solid grey',
+                    borderRadius: '3px',
+                }}
+                type='text' 
                 value={text} 
                 placeholder='Add Task'
                 onChange={
@@ -31,7 +37,13 @@ const AddTask = ({onAdd}) => {
             </div>
             <div className='form-control'>
                 <label>Day & Time</label>
-                <input type='text' 
+                <input style={{ fontFamily: 'Kreon',
+                    backgroundColor:'#292f38',
+                    border: '2px solid grey',
+                    color:'white',
+                    borderRadius:'3px',
+                }}
+                type='text' 
                 placeholder='Add Day & Time'
                 value={day}
                 onChange={
