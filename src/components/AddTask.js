@@ -23,9 +23,9 @@ const AddTask = ({onAdd}) => {
             <div className='form-control'>
                 <label>Task</label>
                 <input style={{ fontFamily: 'Kreon',
-                    backgroundColor:'#292f38',
+                    backgroundColor:'#1d2127e1',
                     color:'white',
-                    border: '2px solid grey',
+                    border: '1px solid grey',
                     borderRadius: '3px',
                 }}
                 type='text' 
@@ -38,8 +38,8 @@ const AddTask = ({onAdd}) => {
             <div className='form-control'>
                 <label>Day & Time</label>
                 <input style={{ fontFamily: 'Kreon',
-                    backgroundColor:'#292f38',
-                    border: '2px solid grey',
+                    backgroundColor:'#1d2127e1',
+                    border: '1px solid grey',
                     color:'white',
                     borderRadius:'3px',
                 }}
